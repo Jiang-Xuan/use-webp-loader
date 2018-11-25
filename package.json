@@ -1,0 +1,44 @@
+{
+  "name": "use-webp-loader",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --env=node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jiang-Xuan/use-webp-loader.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jiang-Xuan/use-webp-loader/issues"
+  },
+  "homepage": "https://github.com/Jiang-Xuan/use-webp-loader#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^5.2.0",
+    "del": "^3.0.0",
+    "eslint": "^5.9.0",
+    "jest": "^23.6.0",
+    "memory-fs": "^0.4.1",
+    "schema-utils": "^1.0.0",
+    "webpack": "^4.5.0"
+  },
+  "peerDependencies": {
+    "webpack": "^2.0.0 || ^3.0.0 || ^4.0.0"
+  },
+  "dependencies": {
+    "is-support-webp": "^1.0.0",
+    "loader-utils": "^1.1.0",
+    "supports-webp": "^1.0.5"
+  }
+}

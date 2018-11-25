@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader Defaults 1`] = `
+"
+        var isSupportWebp = require('is-support-webp')
+        if (isSupportWebp()) {
+          module.exports = __webpack_public_path__ + \\"4b5a9c4a10556d8f205e9f412d1662e6.webp\\"
+        } else {
+          module.exports = __webpack_public_path__ + \\"2af38ddf296b92cd6bbbf97322774c33.png\\"
+        }
+        "
+`;

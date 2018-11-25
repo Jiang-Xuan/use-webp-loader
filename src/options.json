@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {},
+    "regex": {},
+    "context": {
+      "type": "string"
+    },
+    "publicPath": {},
+    "outputPath": {},
+    "useRelativePath": {
+      "type": "boolean"
+    },
+    "emitFile": {
+      "type": "boolean"
+    }
+  },
+  "errorMessages": {
+    "context": "should be {String}",
+    "useRelativePath": "should be {Boolean}",
+    "emitFile": "should be {Boolean}"
+  },
+  "additionalProperties": true
+}
